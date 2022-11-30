@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: vertical;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edit1 {
+    font-family: monospace;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid darkkhaki;
+}
+
+.box:hover {
+    background-color: turquoise;
+}
